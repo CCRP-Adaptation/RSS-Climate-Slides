@@ -3,5 +3,6 @@
 .RData
 .Ruserdata
 *.pptx
+!RSS-Climate-Slides-Template.pptx
 *.docx
 /.quarto/
