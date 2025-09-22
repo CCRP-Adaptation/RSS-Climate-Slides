@@ -1,7 +1,7 @@
 ---
 author: "Climate Change Response Program"
-date: today
-output: pptx
+date: "2025-03-11"
+output: word_document
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
@@ -9,36 +9,38 @@ library(dplyr); library(tidyr);library(knitr)
 rm(list=ls())
 knitr::opts_chunk$set(echo = TRUE)
 
-# UPDATE - Manually set park, climate future, and regional objects
-SiteID <- "ISRO"
-LongName <- "Isle Royale National Park"
+# Set park variables
+SiteID <- "SHEN"
+LongName <- "Shenandoah National Park"
 CF_selected <- "WarmWet_HotDry"
 # CF_selected <- "WarmDry_HotWet"
-region.name <- "Midwest"
 
-# UPDATE - Manually set directories (likely only need to change the drive [e.g., C:])
-OutDir <- paste0("E:/RCF_2024/RCF_opened/", SiteID)
+region.name <- "Northeast"
 
-Park_CF_Dir <- paste0("E:/RCF_2024/RCF_opened/", SiteID)
+# Set directories
+OutDir <- "C:/Users/arunyon/DOI/CCRP COLLABORATE! - CCRP COLLABORATE!/01 PROJECT Collaboration/Science, Adaptation, Planning/Resource Stewardship Strategies (RSS)/Current Park Folders/2024_SHEN/"
 
-HistDir <- paste0("E:/RCF_2024/RCF_opened/", SiteID, "/input-data")
+Park_CF_Dir <- "C:/Users/arunyon/DOI/CCRP COLLABORATE! - CCRP COLLABORATE!/01 PROJECT Collaboration/Science, Adaptation, Planning/Resource Stewardship Strategies (RSS)/Current Park Folders/2024_SHEN/SHEN - Climate Futures/"
 
-# Read in RData file
-load(paste0(Park_CF_Dir, "/input-data/Final_Environment.RData"))
+HistDir <- "C:/Users/arunyon/DOI/CCRP COLLABORATE! - CCRP COLLABORATE!/01 PROJECT Collaboration/Science, Adaptation, Planning/Resource Stewardship Strategies (RSS)/Current Park Folders/2024_SHEN/SHEN - Historical/"
 
-# Read in Historical file
-Historical_regression <- read.csv(paste0(HistDir, "/", SiteID, "_historical.csv"))
+
+# #Read in RData file
+load(paste0(Park_CF_Dir, "input-data/Final_Environment.RData"))
+
+#Read in Historical file
+Historical_regression <- read.csv(paste0(HistDir, SiteID,"-Regression Table.csv"))
 
 if(CF_selected == "WarmWet_HotDry") {
   CFs = c("Warm Wet", "Hot Dry") # Pick pair of climate futures.
   CF_abbreviation <- "WW-HD"
-  CFDir = paste0(Park_CF_Dir,"/WarmWet_HotDry/") # for .csv's
+  CFDir = paste0(Park_CF_Dir,"WarmWet_HotDry/") # for .csv's
   col <- c("#2B83BA","#D7191C") 
   color.names <- c("blue","red")
 } else{
   CFs = c("Warm Dry", "Hot Wet")  # Pick pair of climate futures.
   CF_abbreviation <- "WD-HW"
-  CFDir = paste0(Park_CF_Dir,"/WarmDry_HotWet/") # for .csv's
+  CFDir = paste0(Park_CF_Dir,"WarmDry_HotWet/") # for .csv's
   col <- c("#FDAE61","#ABDDA4")
   color.names <- c("orange","green")
 }
@@ -84,7 +86,7 @@ State_summary_reference <- "Runkle, J., K.E. Kunkel, L.E. Stevens, S.M. Champion
 ```
 
 ---
-title: `r LongName` RSS Climate Slides
+title: `r LongName` RSS Climate Summary
 ---
 
 ***This template has all of the park climate information filled in. The project lead and regional climate staff need to fill in the park-specific sensitivities section based on concerns raised during the RSS process.***

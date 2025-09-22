@@ -1,11 +1,122 @@
 ---
 title: "RSS Climate Slides"
+author: "Climate Change Response Program"
+date: today
+date-format: short
+format: 
+  pptx: 
+    # slide-level: 2
+    reference-doc: RSS-Climate-Slides-Template.pptx
 ---
 
 ## Quarto
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+This slide deck was produced using Quarto Markdown. Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
 
-```{r}
-1 + 1
+```{r setup, include=FALSE, echo=FALSE}
+library(dplyr); library(tidyr);library(knitr);library(here)
+rm(list=ls())
+knitr::opts_chunk$set(echo = TRUE)
+
+# UPDATE - Manually set park, climate future, and regional objects
+SiteID <- "ISRO"
+LongName <- "Isle Royale National Park"
+CF_selected <- "WarmWet_HotDry"
+# CF_selected <- "WarmDry_HotWet"
+region.name <- "Midwest"
+
+# UPDATE - Manually set directories (likely only need to change the drive [e.g., C:])
+OutDir <- paste0("E:/RCF_2024/RCF_opened/", SiteID)
+
+Park_CF_Dir <- paste0("E:/RCF_2024/RCF_opened/", SiteID)
+
+HistDir <- paste0("E:/RCF_2024/RCF_opened/", SiteID, "/input-data")
+
+# Read in RData file
+load(paste0(Park_CF_Dir, "/input-data/Final_Environment.RData"))
+
+# Read in Historical file
+Historical_regression <- read.csv(paste0(HistDir, "/", SiteID, "_historical.csv"))
+
+if(CF_selected == "WarmWet_HotDry") {
+  CFs = c("Warm Wet", "Hot Dry") # Pick pair of climate futures.
+  CF_abbreviation <- "WW-HD"
+  CFDir = paste0(Park_CF_Dir,"/WarmWet_HotDry/") # for .csv's
+  col <- c("#2B83BA","#D7191C") 
+  color.names <- c("blue","red")
+} else{
+  CFs = c("Warm Dry", "Hot Wet")  # Pick pair of climate futures.
+  CF_abbreviation <- "WD-HW"
+  CFDir = paste0(Park_CF_Dir,"/WarmDry_HotWet/") # for .csv's
+  col <- c("#FDAE61","#ABDDA4")
+  color.names <- c("orange","green")
+}
+TableDir = paste0(CFDir,"tables/") # for .csv's
+FigDir = paste0(CFDir,"figures/") # for .csv's
+
+D_Annual <- openxlsx::read.xlsx(xlsxFile=paste0(TableDir,SiteID,"_",CF_abbreviation,"_Plot_data.xlsx"),sheet="D_Annual")
+AnnualWB <- read.csv(paste0(TableDir,"WB-Annual.csv")) |> 
+  left_join(WB_GCMs,by="GCM") |> 
+  mutate(sum_d.in = sum_d.mm/ 25.4,
+         sum_aet.in = sum_aet.mm / 25.4)
+AnnualWB <- AnnualWB |> 
+  replace_na(list(CF = "Historical")) |> 
+  mutate(CF = factor(CF, levels=c("Historical",CFs)))
+Drought.char <- read.csv(paste0(TableDir, "Drought_characteristics.csv"))
+
+#Precip quad direction - saves in-line code
+CF1_precip_direction <- if(D_Annual$PrcpIn[2] > 0) {"pos"} else {"neg"}
+CF2_precip_direction <- if(D_Annual$PrcpIn[3] > 0) {"pos"} else {"neg"}
+
+#Monthly trends
+CF1_precip_inc_direction <- Season_delta |> filter(CF == CFs[1],
+                                                   PrcpIn > 0) |> 
+  dplyr::select(season)  
+CF1_precip_inc_direction <- as.character(CF1_precip_inc_direction$season)
+CF1_precip_inc_direction <- if(length(CF1_precip_inc_direction)==4) {"all"} else{CF1_precip_inc_direction}
+
+CF2_precip_inc_direction <- Season_delta |> filter(CF == CFs[2],
+                                                   PrcpIn > 0) |> 
+  dplyr::select(season)
+
+CF2_precip_inc_direction <- as.character(CF2_precip_inc_direction$season)
+CF2_precip_inc_direction <- if(length(CF2_precip_inc_direction)==4) {"all"} else{CF2_precip_inc_direction}
+
+
+#Translation text
+
+# Historical -- look at state climate summary and fill in reference.
+
+State_summary_statement <- "Temperatures in Virginia have risen more than 1.5 °F since the beginning of the 20th century and total annual precipitation shows a small upward trend, with multiyear values mostly above average since 1995 (Runkle et al. 2022)."
+
+State_summary_reference <- "Runkle, J., K.E. Kunkel, L.E. Stevens, S.M. Champion, B.C. Stewart, R. Frankson, W. Sweet, and S. Rayne, 2022: Virginia State Climate Summary 2022. NOAA Technical Report NESDIS 150-VA. NOAA/NESDIS, Silver Spring, MD, 5 pp."
+```
+
+```{r generate-slides, results='asis', echo=FALSE}
+fig_files <- list.files(FigDir, pattern = "\\.(png|jpg|jpeg|tif|tiff|gif|bmp|svg)$", full.names = TRUE,
+                        ignore.case = TRUE)
+fig_files <- fig_files[order(tolower(basename(fig_files)))]
+
+map_path <- file.path(here("climate-metric-title.csv"))
+title_map <- NULL
+if(file.exists(map_path)) {
+  df_map <- read.csv(map_path, stringsAsFactors = FALSE)
+  df_map$file <- tolower(df_map$file)
+  title_map <- setNames(df_map$title, df_map$file)
+  }
+
+for (fig in fig_files) {
+  base <- basename(fig)
+  key <- tolower(base)
+  
+  fallback <- tools::toTitleCase(gsub("[-_]+", " ", tools::file_path_sans_ext(base)))
+  slide_title <- if (!is.null(title_map) && !is.na(title_map[key])) title_map[key] else fallback
+  
+  # fig_name <- tools::file_path_sans_ext(basename(fig))
+  fig2 <- gsub("\\\\", "/", normalizePath(fig, winslash = "/", mustWork = FALSE))
+
+  cat("## ", slide_title, "\n\n", sep = "")
+  cat("insert text\n\n")
+  cat("![](", fig2, "){width=100%}\n\n", sep = "")
+}
 ```
