@@ -54,7 +54,8 @@ if(CF_selected == "WarmWet_HotDry") {
 TableDir = paste0(CFDir,"tables/") # for .csv's
 FigDir = paste0(CFDir,"figures/") # for .csv's
 
-D_Annual <- openxlsx::read.xlsx(xlsxFile=paste0(TableDir,SiteID,"_",CF_abbreviation,"_Plot_data.xlsx"),sheet="D_Annual")
+D_Annual <- openxlsx::read.xlsx(xlsxFile=paste0(TableDir,SiteID,"_",CF_abbreviation,
+                                                "_Plot_data.xlsx"),sheet="D_Annual")
 AnnualWB <- read.csv(paste0(TableDir,"WB-Annual.csv")) |> 
   left_join(WB_GCMs,by="GCM") |> 
   mutate(sum_d.in = sum_d.mm/ 25.4,
@@ -63,6 +64,9 @@ AnnualWB <- AnnualWB |>
   replace_na(list(CF = "Historical")) |> 
   mutate(CF = factor(CF, levels=c("Historical",CFs)))
 Drought.char <- read.csv(paste0(TableDir, "Drought_characteristics.csv"))
+
+
+### BCR has not used these and likely won't, but is preserving for now ----
 
 #Precip quad direction - saves in-line code
 CF1_precip_direction <- if(D_Annual$PrcpIn[2] > 0) {"pos"} else {"neg"}
@@ -93,29 +97,31 @@ State_summary_reference <- "Runkle, J., K.E. Kunkel, L.E. Stevens, S.M. Champion
 ```
 
 ```{r generate-slides, results='asis', echo=FALSE}
-fig_files <- list.files(FigDir, pattern = "\\.(png|jpg|jpeg|tif|tiff|gif|bmp|svg)$", full.names = TRUE,
-                        ignore.case = TRUE)
+fig_files <- list.files(FigDir, pattern = "\\.(png|jpg|jpeg|tif|tiff|gif|bmp|svg)$", full.names = TRUE, ignore.case = TRUE)
 fig_files <- fig_files[order(tolower(basename(fig_files)))]
 
-map_path <- file.path(here("climate-metric-title.csv"))
-title_map <- NULL
-if(file.exists(map_path)) {
-  df_map <- read.csv(map_path, stringsAsFactors = FALSE)
-  df_map$file <- tolower(df_map$file)
-  title_map <- setNames(df_map$title, df_map$file)
+title_path <- here("climate-metric-title.csv")
+metric_title <- NULL # creates null object 
+if(file.exists(title_path)) {
+  title_map <- read.csv(title_path, stringsAsFactors = FALSE)
+  title_map$file <- tolower(title_map$file)
+  metric_title <- setNames(title_map$title, title_map$file)
   }
 
 for (fig in fig_files) {
   base <- basename(fig)
-  key <- tolower(base)
+  base_lower <- tolower(base)
   
+  # fallback title in case metric title csv does not exist - pulls from image name
   fallback <- tools::toTitleCase(gsub("[-_]+", " ", tools::file_path_sans_ext(base)))
-  slide_title <- if (!is.null(title_map) && !is.na(title_map[key])) title_map[key] else fallback
+  slide_title <- if (!is.null(metric_title) && !is.na(metric_title[base_lower])) metric_title[base_lower]
+    else fallback
   
-  # fig_name <- tools::file_path_sans_ext(basename(fig))
+  # I don't think this is necessary since I removed the file.path command, but don't want to
+  # remove yet and have things break - will look into later
   fig2 <- gsub("\\\\", "/", normalizePath(fig, winslash = "/", mustWork = FALSE))
 
-  cat("## ", slide_title, "\n\n", sep = "")
+  cat("## ", slide_title, "\n\n", sep = "") #
   cat("insert text\n\n")
   cat("![](", fig2, "){width=100%}\n\n", sep = "")
 }
