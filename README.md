@@ -2,7 +2,7 @@ Author: Brecken Robb
 
 Date started: September 2025
 
-----
+------------------------------------------------------------------------
 
 This repository was developed to automate the production of climate slides used in presentations like RSSs and SP engagements.
 
