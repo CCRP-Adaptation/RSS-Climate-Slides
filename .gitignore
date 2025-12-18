@@ -2,7 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
-*.pptx
-!RSS-Climate-Slides-Template.pptx
-*.docx
 /.quarto/
+archive/
+*.pptx
+!*-Template.pptx
+*.csv
+!climate-metric-title.csv
+*.docx
