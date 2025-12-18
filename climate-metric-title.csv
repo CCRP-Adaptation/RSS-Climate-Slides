@@ -1,111 +1,111 @@
-﻿file,title
-50yr-PrecipEvent-bar.png,Test1
-AET.in-spaghetti.jpg,Test2
-avg_SM.in-Density.png,avg_SM.in-Density
-avg_SM.in-Monthly-line.png,avg_SM.in-Monthly-line
-BegGrow-Annual-bar.png,BegGrow-Annual-bar
-BegGrow-Annual-box.png,BegGrow-Annual-box
-BegGrow-Annual-timeseries.png,BegGrow-Annual-timeseries
-D.in-Timeseries.png,D.in-Timeseries
-DroughtCharacteristics-1-Panel.png,DroughtCharacteristics-1-Panel
-DroughtCharacteristics-2-Panel.png,DroughtCharacteristics-2-Panel
-Drought-characteristics-panel.png,Drought-characteristics-panel
-DroughtDuration-Bar.png,DroughtDuration-Bar
-DroughtFrequency-Bar.png,DroughtFrequency-Bar
-DroughtIntensity-Bar.png,DroughtIntensity-Bar
-DroughtSeverity-Bar.png,DroughtSeverity-Bar
-FThaw-Annual-bar.png,FThaw-Annual-bar
-FThaw-Annual-box.png,FThaw-Annual-box
-FThaw-Annual-timeseries.png,FThaw-Annual-timeseries
-GrowLen-Annual-bar.png,GrowLen-Annual-bar
-GrowLen-Annual-box.png,GrowLen-Annual-box
-GrowLen-Annual-timeseries.png,GrowLen-Annual-timeseries
-HI.Dan-Annual-bar.png,HI.Dan-Annual-bar
-HI.Dan-Annual-box.png,HI.Dan-Annual-box
-HI.Dan-Annual-timeseries.png,HI.Dan-Annual-timeseries
-max_pack.in-Annual-bar.png,max_pack.in-Annual-bar
-max_SWEaccum.in-Annual-line.png,max_SWEaccum.in-Annual-line
-OverHighQ-Annual-bar.png,OverHighQ-Annual-bar
-OverHighQ-Annual-box.png,OverHighQ-Annual-box
-OverHighQ-Annual-timeseries.png,OverHighQ-Annual-timeseries
-OverHotTemp-Annual-bar.png,OverHotTemp-Annual-bar
-OverHotTemp-Annual-box.png,OverHotTemp-Annual-box
-OverHotTemp-Annual-timeseries.png,OverHotTemp-Annual-timeseries
-OverPrecip95-Annual-bar.png,OverPrecip95-Annual-bar
-OverPrecip95-Annual-box.png,OverPrecip95-Annual-box
-OverPrecip95-Annual-timeseries.png,OverPrecip95-Annual-timeseries
-OverPrecip99-Annual-bar.png,OverPrecip99-Annual-bar
-OverPrecip99-Annual-box.png,OverPrecip99-Annual-box
-OverPrecip99-Annual-timeseries.png,OverPrecip99-Annual-timeseries
-OverTmax99-HI.Dan-Panel.jpg,OverTmax99-HI.Dan-Panel
-Panel-D.in-VPD.png,Panel-D.in-VPD
-Panel-D.in-WaterBalance.png,Panel-D.in-WaterBalance
-PrcpIn-Annual-bar.png,PrcpIn-Annual-bar
-PrcpIn-Annual-box.png,PrcpIn-Annual-box
-PrcpIn-Annual-timeseries.png,PrcpIn-Annual-timeseries
-PrcpInDelta-Monthly-bar.png,PrcpInDelta-Monthly-bar
-PrcpInDelta-Seasonal-bar.png,PrcpInDelta-Seasonal-bar
-PrcpIn-Timeseries.png,PrcpIn-Timeseries
-PrcpPctDelta-Monthly-bar.png,PrcpPctDelta-Monthly-bar
-PrcpPctDelta-Seasonal-bar.png,PrcpPctDelta-Seasonal-bar
-PrecipOver1-Annual-bar.png,PrecipOver1-Annual-bar
-PrecipOver1-Annual-box.png,PrecipOver1-Annual-box
-PrecipOver1-Annual-timeseries.png,PrecipOver1-Annual-timeseries
-PrecipOver2-Annual-bar.png,PrecipOver2-Annual-bar
-PrecipOver2-Annual-box.png,PrecipOver2-Annual-box
-PrecipOver2-Annual-timeseries.png,PrecipOver2-Annual-timeseries
-Precip-Return-Event-curve.png,Precip-Return-Event-curve
-Precip-Return-Event-curve-50yr-lines.png,Precip-Return-Event-curve-50yr-lines
-Precip-Return-Event-curve-prcp-lines.png,Precip-Return-Event-curve-prcp-lines
-Recurrenceinterval-OverPrecip99-Panel.png,Recurrenceinterval-OverPrecip99-Panel
-Recurrenceinterval-Runoff.in-Panel.png,Recurrenceinterval-Runoff.in-Panel
-RHmeanDelta-Monthly-bar.png,RHmeanDelta-Monthly-bar
-RHmeanDelta-Seasonal-bar.png,RHmeanDelta-Seasonal-bar
-Runoff.in-spaghetti.jpg,Runoff.in-spaghetti
-Runoff.in-Timeseries.png,Runoff.in-Timeseries
-SM.in-spaghetti.jpg,SM.in-spaghetti
-Sp.Frost-Annual-bar.png,Sp.Frost-Annual-bar
-Sp.Frost-Annual-box.png,Sp.Frost-Annual-box
-Sp.Frost-Annual-timeseries.png,Sp.Frost-Annual-timeseries
-SPEI-CF1-Annual-bar.png,SPEI-CF1-Annual-bar
-SPEI-CF1-gridmet-Annual-bar.png,SPEI-CF1-gridmet-Annual-bar
-SPEI-CF2-Annual-bar.png,SPEI-CF2-Annual-bar
-SPEI-CF2-gridmet-Annual-bar.png,SPEI-CF2-gridmet-Annual-bar
-SPEI-Panel.png,SPEI-Panel
-sum_aet.in-Monthly-line.png,sum_aet.in-Monthly-line
-sum_d.in-Density.png,sum_d.in-Density
-sum_d.in-Monthly-line.png,sum_d.in-Monthly-line
-sum_runoff.in-Monthly-line.png,sum_runoff.in-Monthly-line
-sum_SWEaccum.in-Monthly-line.png,sum_SWEaccum.in-Monthly-line
-SWEaccum.in-Density-max.png,SWEaccum.in-Density-max
-SWEaccum.in-spaghetti.jpg,SWEaccum.in-spaghetti
-SWEaccum.in-Timeseries.png,SWEaccum.in-Timeseries
-TavgF_D.in-Timeseries.png,TavgF_D.in-Timeseries
-TavgF_Runoff.in-Timeseries.png,TavgF_Runoff.in-Timeseries
-TavgF_SWEaccum.in-Timeseries.png,TavgF_SWEaccum.in-Timeseries
-TavgF-Annual-bar.png,TavgF-Annual-bar
-TavgF-Annual-box.png,TavgF-Annual-box
-TavgF-Annual-timeseries.png,TavgF-Annual-timeseries
-TavgFDelta-Monthly-line.png,TavgFDelta-Monthly-line
-TavgFOver41-Annual-bar.png,TavgFOver41-Annual-bar
-TavgFOver41-Annual-box.png,TavgFOver41-Annual-box
-TavgFOver41-Annual-timeseries.png,TavgFOver41-Annual-timeseries
-TavgF-PrcpIn-Timeseries.png,TavgF-PrcpIn-Timeseries
-TavgF-Timeseries.png,TavgF-Timeseries
-Tmax99-Annual-bar.png,Tmax99-Annual-bar
-Tmax99-Annual-box.png,Tmax99-Annual-box
-Tmax99-Annual-timeseries.png,Tmax99-Annual-timeseries
-TmaxFDelta-Monthly-line.png,TmaxFDelta-Monthly-line
-TminFDelta-Monthly-line.png,TminFDelta-Monthly-line
-TminF-TmaxF-Panel.png,TminF-TmaxF-Panel
-UnderColdTemp-Annual-bar.png,UnderColdTemp-Annual-bar
-UnderColdTemp-Annual-box.png,UnderColdTemp-Annual-box
-UnderColdTemp-Annual-timeseries.png,UnderColdTemp-Annual-timeseries
-UnderLowQ-Annual-bar.png,UnderLowQ-Annual-bar
-UnderLowQ-Annual-box.png,UnderLowQ-Annual-box
-UnderLowQ-Annual-timeseries.png,UnderLowQ-Annual-timeseries
-VPDDelta-Monthly-bar.png,VPDDelta-Monthly-bar
-VPDDelta-Seasonal-bar.png,VPDDelta-Seasonal-bar
-WaterBalance.png,WaterBalance
-WaterBalance_Monthly_Horizontal.jpg,WaterBalance_Monthly_Horizontal
-WaterBalance_Monthly_Vertical.jpg,WaterBalance_Monthly_Vertical
+﻿file_name,image_name,extension,climate_variable,indicator,measure,statistic,temporal_scale,plot_type,quick_access_title,ACR_common_figure,common_figure,slide_sort,slide_title,slide_subheading
+TavgF-Timeseries.png,TavgF-Timeseries,png,Temperature,Tavg,deg,Variability,Ann,TS-century,Temperature_Tavg_deg_Variability_Ann_TS-century,Yes,Yes,1,"LEAD TO FILL IN (e.g., Average annual temperature increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TavgF-PrcpIn-Timeseries.png,TavgF-PrcpIn-Timeseries,png,Temperature,Tavg.Precip,deg.in,Variability,Ann,TS-century,Temperature_Tavg.Precip_deg.in_Variability_Ann_TS-century,Yes,Yes,2,"LEAD TO FILL IN (e.g., Average annual temperature and precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TavgF-Annual-bar.png,TavgF-Annual-bar,png,Temperature,Tavg,deg,Avg,Ann,Bar,Temperature_Tavg_deg_Avg_Ann_Bar,No,No,3,"LEAD TO FILL IN (e.g., Average annual temperature increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TavgF-Annual-box.png,TavgF-Annual-box,png,Temperature,Tavg,deg,Avg,Ann,Box,Temperature_Tavg_deg_Avg_Ann_Box,No,No,4,"LEAD TO FILL IN (e.g., Average annual temperature increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TavgF-Annual-timeseries.png,TavgF-Annual-timeseries,png,Temperature,Tavg,deg,Variability,Ann,TS,Temperature_Tavg_deg_Variability_Ann_TS,No,No,5,"LEAD TO FILL IN (e.g., Average annual temperature increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TavgFDelta-Monthly-line.png,TavgFDelta-Monthly-line,png,Temperature,Tavg,deg,Delta,Mon,Line,Temperature_Tavg_deg_Delta_Mon_Line,Yes,Yes,6,"LEAD TO FILL IN (e.g., Average annual temperature increases across all months in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverHotTemp-Annual-bar.png,OverHotTemp-Annual-bar,png,Temperature,Tmax-95deg,Days,Avg,Ann,Bar,Temperature_Tmax-95deg_Days_Avg_Ann_Bar,No,No,7,"LEAD TO FILL IN (e.g., Average number of days per year where the temperature gets above 95°F increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverHotTemp-Annual-box.png,OverHotTemp-Annual-box,png,Temperature,Tmax-95deg,Days,Avg,Ann,Box,Temperature_Tmax-95deg_Days_Avg_Ann_Box,No,No,8,"LEAD TO FILL IN (e.g., Average number of days per year where the temperature gets above 95°F increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverHotTemp-Annual-timeseries.png,OverHotTemp-Annual-timeseries,png,Temperature,Tmax-95deg,Days,Variability,Ann,TS,Temperature_Tmax-95deg_Days_Variability_Ann_TS,No,No,9,"LEAD TO FILL IN (e.g., Average number of days per year where the temperature gets above 95°F increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverHighQ-Annual-bar.png,OverHighQ-Annual-bar,png,Temperature,Tmax-95th,Days,Avg,Ann,Bar,Temperature_Tmax-95th_Days_Avg_Ann_Bar,No,No,10,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures above the historical 95th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverHighQ-Annual-box.png,OverHighQ-Annual-box,png,Temperature,Tmax-95th,Days,Avg,Ann,Box,Temperature_Tmax-95th_Days_Avg_Ann_Box,No,No,11,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures above the historical 95th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverHighQ-Annual-timeseries.png,OverHighQ-Annual-timeseries,png,Temperature,Tmax-95th,Days,Variability,Ann,TS,Temperature_Tmax-95th_Days_Variability_Ann_TS,No,No,12,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures above the historical 95th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+Tmax99-Annual-bar.png,Tmax99-Annual-bar,png,Temperature,Tmax-99th,Days,Avg,Ann,Bar,Temperature_Tmax-99th_Days_Avg_Ann_Bar,Yes,Yes,13,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures above the historical 99th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+Tmax99-Annual-box.png,Tmax99-Annual-box,png,Temperature,Tmax-99th,Days,Avg,Ann,Box,Temperature_Tmax-99th_Days_Avg_Ann_Box,No,No,14,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures above the historical 99th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+Tmax99-Annual-timeseries.png,Tmax99-Annual-timeseries,png,Temperature,Tmax-99th,Days,Variability,Ann,TS,Temperature_Tmax-99th_Days_Variability_Ann_TS,No,No,15,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures above the historical 99th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverTmax99-HI.Dan-Panel.jpg,OverTmax99-HI.Dan-Panel,jpg,Temperature,Tmax-99th.HI,Days,Avg,Ann,Bar,Temperature_Tmax-99th.HI_Days_Avg_Ann_Bar,No,No,16,"LEAD TO FILL IN (e.g., High temperatures and dangerous heat index days increase in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TmaxFDelta-Monthly-line.png,TmaxFDelta-Monthly-line,png,Temperature,Tmax,deg,Delta,Mon,Line,Temperature_Tmax_deg_Delta_Mon_Line,Yes,Yes,17,"LEAD TO FILL IN (e.g., Maximum annual temperature increases across all months in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TminFDelta-Monthly-line.png,TminFDelta-Monthly-line,png,Temperature,Tmin,deg,Delta,Mon,Line,Temperature_Tmin_deg_Delta_Mon_Line,Yes,Yes,18,"LEAD TO FILL IN (e.g., Minimum annual temperature increases across all months in both climate futures)","Add any relevant context or delete text box, then resize figure"
+UnderColdTemp-Annual-bar.png,UnderColdTemp-Annual-bar,png,Temperature,Tmin-32deg,deg,Avg,Ann,Bar,Temperature_Tmin-32deg_deg_Avg_Ann_Bar,No,No,19,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures below freezing (<32°F) decreases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+UnderColdTemp-Annual-box.png,UnderColdTemp-Annual-box,png,Temperature,Tmin-32deg,deg,Avg,Ann,Box,Temperature_Tmin-32deg_deg_Avg_Ann_Box,No,No,20,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures below freezing (<32°F) decreases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+UnderColdTemp-Annual-timeseries.png,UnderColdTemp-Annual-timeseries,png,Temperature,Tmin-32deg,deg,Variability,Ann,TS,Temperature_Tmin-32deg_deg_Variability_Ann_TS,No,No,21,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures below freezing (<32°F) decreases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+UnderLowQ-Annual-bar.png,UnderLowQ-Annual-bar,png,Temperature,Tmin-5th,Days,Avg,Ann,Bar,Temperature_Tmin-5th_Days_Avg_Ann_Bar,No,No,22,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures below the historical 5th percentile decreases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+UnderLowQ-Annual-box.png,UnderLowQ-Annual-box,png,Temperature,Tmin-5th,Days,Avg,Ann,Box,Temperature_Tmin-5th_Days_Avg_Ann_Box,No,No,23,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures below the historical 5th percentile decreases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+UnderLowQ-Annual-timeseries.png,UnderLowQ-Annual-timeseries,png,Temperature,Tmin-5th,Days,Variability,Ann,TS,Temperature_Tmin-5th_Days_Variability_Ann_TS,No,No,24,"LEAD TO FILL IN (e.g., Average number of days per year with temperatures below the historical 5th percentile decreases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TminF-TmaxF-Panel.png,TminF-TmaxF-Panel,png,Temperature,Tmin.Tmax,deg,Delta,Mon,Dot,Temperature_Tmin.Tmax_deg_Delta_Mon_Dot,No,No,25,"LEAD TO FILL IN (e.g., Maximum and minimum annual temperature increases across all months in both climate futures)","Add any relevant context or delete text box, then resize figure"
+HI.Dan-Annual-bar.png,HI.Dan-Annual-bar,png,Temperature,HeatIndex,Days,Avg,Ann,Bar,Temperature_HeatIndex_Days_Avg_Ann_Bar,Yes,Yes,26,"LEAD TO FILL IN (e.g., Average annual dangerous heat index days increase in both climate futures)","Add any relevant context or delete text box, then resize figure"
+HI.Dan-Annual-box.png,HI.Dan-Annual-box,png,Temperature,HeatIndex,Days,Avg,Ann,Box,Temperature_HeatIndex_Days_Avg_Ann_Box,No,No,27,"LEAD TO FILL IN (e.g., Average annual dangerous heat index days increase in both climate futures)","Add any relevant context or delete text box, then resize figure"
+HI.Dan-Annual-timeseries.png,HI.Dan-Annual-timeseries,png,Temperature,HeatIndex,Days,Variability,Ann,TS,Temperature_HeatIndex_Days_Variability_Ann_TS,No,No,28,"LEAD TO FILL IN (e.g., Average annual dangerous heat index days increase in both climate futures)","Add any relevant context or delete text box, then resize figure"
+BegGrow-Annual-bar.png,BegGrow-Annual-bar,png,Temperature,Greenup,DOY,Avg,Ann,Bar,Temperature_Greenup_DOY_Avg_Ann_Bar,Yes,No,29,"LEAD TO FILL IN (e.g., The average annual green-up date is sooner in both climate futures)","Add any relevant context or delete text box, then resize figure"
+BegGrow-Annual-box.png,BegGrow-Annual-box,png,Temperature,Greenup,DOY,Avg,Ann,Box,Temperature_Greenup_DOY_Avg_Ann_Box,No,No,30,"LEAD TO FILL IN (e.g., The average annual green-up date is sooner in both climate futures)","Add any relevant context or delete text box, then resize figure"
+BegGrow-Annual-timeseries.png,BegGrow-Annual-timeseries,png,Temperature,Greenup,DOY,Variability,Ann,TS,Temperature_Greenup_DOY_Variability_Ann_TS,No,No,31,"LEAD TO FILL IN (e.g., The average annual green-up date is sooner in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TavgFOver41-Annual-bar.png,TavgFOver41-Annual-bar,png,Temperature,Grow-41deg,Days,Avg,Ann,Bar,Temperature_Grow-41deg_Days_Avg_Ann_Bar,No,No,32,"LEAD TO FILL IN (e.g., Average number of days per year where the temperature gets above 41°F increases in both climate futures)",41°F is often associated with the start of the growing season
+TavgFOver41-Annual-box.png,TavgFOver41-Annual-box,png,Temperature,Grow-41deg,Days,Avg,Ann,Box,Temperature_Grow-41deg_Days_Avg_Ann_Box,No,No,33,"LEAD TO FILL IN (e.g., Average number of days per year where the temperature gets above 41°F increases in both climate futures)",41°F is often associated with the start of the growing season
+TavgFOver41-Annual-timeseries.png,TavgFOver41-Annual-timeseries,png,Temperature,Grow-41deg,Days,Variability,Ann,TS,Temperature_Grow-41deg_Days_Variability_Ann_TS,No,No,34,"LEAD TO FILL IN (e.g., Average number of days per year where the temperature gets above 41°F increases in both climate futures)",41°F is often associated with the start of the growing season
+GrowLen-Annual-bar.png,GrowLen-Annual-bar,png,Temperature,GrowLen,Days,Avg,Ann,Bar,Temperature_GrowLen_Days_Avg_Ann_Bar,Yes,Yes,35,"LEAD TO FILL IN (e.g., Average annual growing season length increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+GrowLen-Annual-box.png,GrowLen-Annual-box,png,Temperature,GrowLen,Days,Avg,Ann,Box,Temperature_GrowLen_Days_Avg_Ann_Box,No,No,36,"LEAD TO FILL IN (e.g., Average annual growing season length increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+GrowLen-Annual-timeseries.png,GrowLen-Annual-timeseries,png,Temperature,GrowLen,Days,Variability,Ann,TS,Temperature_GrowLen_Days_Variability_Ann_TS,No,No,37,"LEAD TO FILL IN (e.g., Average annual growing season length increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+FThaw-Annual-bar.png,FThaw-Annual-bar,png,Temperature,FreezeThaw,Cycles,Avg,Ann,Bar,Temperature_FreezeThaw_Cycles_Avg_Ann_Bar,Yes,No,38,"LEAD TO FILL IN (e.g., Average annual freeze-thaw cycles increase in the warm wet climate future and decrease in the hot dry climate future)","Add any relevant context or delete text box, then resize figure"
+FThaw-Annual-box.png,FThaw-Annual-box,png,Temperature,FreezeThaw,Cycles,Avg,Ann,Box,Temperature_FreezeThaw_Cycles_Avg_Ann_Box,No,No,39,"LEAD TO FILL IN (e.g., Average annual freeze-thaw cycles increase in the warm wet climate future and decrease in the hot dry climate future)","Add any relevant context or delete text box, then resize figure"
+FThaw-Annual-timeseries.png,FThaw-Annual-timeseries,png,Temperature,FreezeThaw,Cycles,Variability,Ann,TS,Temperature_FreezeThaw_Cycles_Variability_Ann_TS,No,No,40,"LEAD TO FILL IN (e.g., Average annual freeze-thaw cycles increase in the warm wet climate future and decrease in the hot dry climate future)","Add any relevant context or delete text box, then resize figure"
+Sp.Frost-Annual-bar.png,Sp.Frost-Annual-bar,png,Temperature,Frost,Days,Avg,Ann,Bar,Temperature_Frost_Days_Avg_Ann_Bar,Yes,Yes,41,"LEAD TO FILL IN (e.g., Average number of spring frost days per year decreases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+Sp.Frost-Annual-box.png,Sp.Frost-Annual-box,png,Temperature,Frost,Days,Avg,Ann,Box,Temperature_Frost_Days_Avg_Ann_Box,No,No,42,"LEAD TO FILL IN (e.g., Average number of spring frost days per year decreases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+Sp.Frost-Annual-timeseries.png,Sp.Frost-Annual-timeseries,png,Temperature,Frost,Days,Variability,Ann,TS,Temperature_Frost_Days_Variability_Ann_TS,No,No,43,"LEAD TO FILL IN (e.g., Average number of spring frost days per year decreases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrcpIn-Timeseries.png,PrcpIn-Timeseries,png,Precipitation,Avg,in,Variability,Ann,TS-century,Precipitation_Avg_in_Variability_Ann_TS-century,Yes,Yes,44,"LEAD TO FILL IN (e.g., Average annual precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrcpIn-Annual-bar.png,PrcpIn-Annual-bar,png,Precipitation,Avg,in,Avg,Ann,Bar,Precipitation_Avg_in_Avg_Ann_Bar,No,No,45,"LEAD TO FILL IN (e.g., Average annual precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrcpIn-Annual-box.png,PrcpIn-Annual-box,png,Precipitation,Avg,in,Avg,Ann,Box,Precipitation_Avg_in_Avg_Ann_Box,No,No,46,"LEAD TO FILL IN (e.g., Average annual precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrcpIn-Annual-timeseries.png,PrcpIn-Annual-timeseries,png,Precipitation,Avg,in,Variability,Ann,TS,Precipitation_Avg_in_Variability_Ann_TS,No,No,47,"LEAD TO FILL IN (e.g., Average annual precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrcpInDelta-Monthly-bar.png,PrcpInDelta-Monthly-bar,png,Precipitation,Avg,in,Delta,Mon,Bar,Precipitation_Avg_in_Delta_Mon_Bar,Yes,Yes,48,"LEAD TO FILL IN (e.g., Average monthly precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrcpInDelta-Seasonal-bar.png,PrcpInDelta-Seasonal-bar,png,Precipitation,Avg,in,Delta,Seas,Bar,Precipitation_Avg_in_Delta_Seas_Bar,Yes,No,49,"LEAD TO FILL IN (e.g., Average seasonal precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrcpPctDelta-Monthly-bar.png,PrcpPctDelta-Monthly-bar,png,Precipitation,Avg,Pct,Delta,Mon,Bar,Precipitation_Avg_Pct_Delta_Mon_Bar,Yes,No,50,"LEAD TO FILL IN (e.g., Percent monthly precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrcpPctDelta-Seasonal-bar.png,PrcpPctDelta-Seasonal-bar,png,Precipitation,Avg,Pct,Delta,Seas,Bar,Precipitation_Avg_Pct_Delta_Seas_Bar,No,No,51,"LEAD TO FILL IN (e.g., Percent seasonal precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrecipOver1-Annual-bar.png,PrecipOver1-Annual-bar,png,Precipitation,Heavy-1in,Days,Avg,Ann,Bar,Precipitation_Heavy-1in_Days_Avg_Ann_Bar,No,No,52,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation greater than 1 inch increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrecipOver1-Annual-box.png,PrecipOver1-Annual-box,png,Precipitation,Heavy-1in,Days,Avg,Ann,Box,Precipitation_Heavy-1in_Days_Avg_Ann_Box,No,No,53,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation greater than 1 inch increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrecipOver1-Annual-timeseries.png,PrecipOver1-Annual-timeseries,png,Precipitation,Heavy-1in,Days,Variability,Ann,TS,Precipitation_Heavy-1in_Days_Variability_Ann_TS,No,No,54,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation greater than 1 inch increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrecipOver2-Annual-bar.png,PrecipOver2-Annual-bar,png,Precipitation,Heavy-2in,Days,Avg,Ann,Bar,Precipitation_Heavy-2in_Days_Avg_Ann_Bar,No,No,55,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation greater than 2 inches increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrecipOver2-Annual-box.png,PrecipOver2-Annual-box,png,Precipitation,Heavy-2in,Days,Avg,Ann,Box,Precipitation_Heavy-2in_Days_Avg_Ann_Box,No,No,56,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation greater than 2 inches increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+PrecipOver2-Annual-timeseries.png,PrecipOver2-Annual-timeseries,png,Precipitation,Heavy-2in,Days,Variability,Ann,TS,Precipitation_Heavy-2in_Days_Variability_Ann_TS,No,No,57,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation greater than 2 inches increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverPrecip95-Annual-bar.png,OverPrecip95-Annual-bar,png,Precipitation,Heavy-95th,Days,Avg,Ann,Bar,Precipitation_Heavy-95th_Days_Avg_Ann_Bar,No,No,58,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation above the historical 95th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverPrecip95-Annual-box.png,OverPrecip95-Annual-box,png,Precipitation,Heavy-95th,Days,Avg,Ann,Box,Precipitation_Heavy-95th_Days_Avg_Ann_Box,No,No,59,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation above the historical 95th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverPrecip95-Annual-timeseries.png,OverPrecip95-Annual-timeseries,png,Precipitation,Heavy-95th,Days,Variability,Ann,TS,Precipitation_Heavy-95th_Days_Variability_Ann_TS,No,No,60,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation above the historical 95th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverPrecip99-Annual-bar.png,OverPrecip99-Annual-bar,png,Precipitation,Heavy-99th,Days,Avg,Ann,Bar,Precipitation_Heavy-99th_Days_Avg_Ann_Bar,Yes,No,61,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation above the historical 99th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverPrecip99-Annual-box.png,OverPrecip99-Annual-box,png,Precipitation,Heavy-99th,Days,Avg,Ann,Box,Precipitation_Heavy-99th_Days_Avg_Ann_Box,No,No,62,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation above the historical 99th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+OverPrecip99-Annual-timeseries.png,OverPrecip99-Annual-timeseries,png,Precipitation,Heavy-99th,Days,Variability,Ann,TS,Precipitation_Heavy-99th_Days_Variability_Ann_TS,No,No,63,"LEAD TO FILL IN (e.g., Average number of days per year with precipitation above the historical 99th percentile increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+50yr-PrecipEvent-bar.png,50yr-PrecipEvent-bar,png,Precipitation,Extreme-50yr,in,Avg,Ann,Bar,Precipitation_Extreme-50yr_in_Avg_Ann_Bar,Yes,No,64,"LEAD TO FILL IN (e.g., 50-yr extreme precipitation events increase in both climate futures)","Add any relevant context or delete text box, then resize figure"
+Precip-Return-Event-curve.png,Precip-Return-Event-curve,png,Precipitation,Return,in,Quantile,Day,Line,Precipitation_Return_in_Quantile_Day_Line,No,No,65,"LEAD TO FILL IN (e.g., Extreme 24-hour precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+Precip-Return-Event-curve-prcp-lines.png,Precip-Return-Event-curve-prcp-lines,png,Precipitation,Return-2in,in,Quantile,Day,Line,Precipitation_Return-2in_in_Quantile_Day_Line,No,No,66,"LEAD TO FILL IN (e.g., Extreme 24-hour precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+Precip-Return-Event-curve-50yr-lines.png,Precip-Return-Event-curve-50yr-lines,png,Precipitation,Return-50yr,in,Quantile,Day,Line,Precipitation_Return-50yr_in_Quantile_Day_Line,No,No,67,"LEAD TO FILL IN (e.g., Extreme 24-hour precipitation increases in both climate futures)","Add any relevant context or delete text box, then resize figure"
+Recurrenceinterval-OverPrecip99-Panel.png,Recurrenceinterval-OverPrecip99-Panel,png,Precipitation,Return.99th,in.Days,Quantile.Avg,Day.Ann,Line.Bar,Precipitation_Return.99th_in.Days_Quantile.Avg_Day.Ann_Line.Bar,No,No,68,"LEAD TO FILL IN (e.g., Extreme precipitation events become more intense and frequent in both climate futures)","Add any relevant context or delete text box, then resize figure"
+TavgF_D.in-Timeseries.png,TavgF_D.in-Timeseries,png,Water Balance,Tavg.CWD,deg.in,Variability,Ann,TS-century,Water Balance_Tavg.CWD_deg.in_Variability_Ann_TS-century,No,Yes,69,"LEAD TO FILL IN (e.g., Average annual temperatures and likelihood of drought increases in both climate futures)",Climatic water deficit (CWD) is the gap between how much water the environment needs and how much is actually available
+TavgF_Runoff.in-Timeseries.png,TavgF_Runoff.in-Timeseries,png,Water Balance,Tavg.Runoff,deg.in,Variability,Ann,TS-century,Water Balance_Tavg.Runoff_deg.in_Variability_Ann_TS-century,No,No,70,"LEAD TO FILL IN (e.g., Average annual temperatures increases and water runoff decreases in both climate futures)","Runoff is the water that flows over the land into streams, rivers, and lakes after the ground can’t absorb any more"
+TavgF_SWEaccum.in-Timeseries.png,TavgF_SWEaccum.in-Timeseries,png,Water Balance,Tavg.SWE,deg.in,Variability,Ann,TS-century,Water Balance_Tavg.SWE_deg.in_Variability_Ann_TS-century,No,No,71,"LEAD TO FILL IN (e.g., Average annual temperatures increases and snowpack decreases in both climate futures)",Snow water equivalent (SWE) is the amount of water stored in the snowpack if it were melted
+sum_aet.in-Monthly-line.png,sum_aet.in-Monthly-line,png,Water Balance,AET,in,Delta,Mon,Line,Water Balance_AET_in_Delta_Mon_Line,Yes,No,72,"LEAD TO FILL IN (e.g., Actual evapotranspiration increases in both climate futures, especially hot dry in the spring)",Actual evapotranspiration (AET) is the amount of water that leaves plants and the land to go back into the air
+AET.in-spaghetti.jpg,AET.in-spaghetti,jpg,Water Balance,AET,DOY,Raw,Day,Line,Water Balance_AET_DOY_Raw_Day_Line,No,No,73,"LEAD TO FILL IN (e.g., Daily actual evapotranspiration remains consistent in both climate futures)",Actual evapotranspiration (AET) is the amount of water that leaves plants and the land to go back into the air
+D.in-Timeseries.png,D.in-Timeseries,png,Water Balance,CWD,in,Variability,Ann,TS-century,Water Balance_CWD_in_Variability_Ann_TS-century,Yes,Yes,74,"LEAD TO FILL IN (e.g., Annual average climatic water deficit increases in both climate futures)",Climatic water deficit (CWD) is the gap between how much water the environment needs and how much is actually available
+sum_d.in-Monthly-line.png,sum_d.in-Monthly-line,png,Water Balance,CWD,in,Delta,Mon,Line,Water Balance_CWD_in_Delta_Mon_Line,Yes,No,75,"LEAD TO FILL IN (e.g., Water deficit increases in the hot dry climate future)",Climatic water deficit (CWD) is the gap between how much water the environment needs and how much is actually available
+sum_d.in-Density.png,sum_d.in-Density,png,Water Balance,CWD,Density,Avg,Ann,Area,Water Balance_CWD_Density_Avg_Ann_Area,Yes,Yes,76,"LEAD TO FILL IN (e.g., Water deficit increases in the hot dry climate future)",Climatic water deficit (CWD) is the gap between how much water the environment needs and how much is actually available
+Panel-D.in-WaterBalance.png,Panel-D.in-WaterBalance,png,Water Balance,CWD.AET,in,Var.Raw,Ann,TS-century.Dot,Water Balance_CWD.AET_in_Var.Raw_Ann_TS-century.Dot,No,No,77,"LEAD TO FILL IN (e.g., Water stress (and fire and drought risk) increases in both climate futures)",Water balance is the relationship between how much water comes into an ecosystem and how much leaves it; climatic water deficit (CWD) is the gap between how much water the environment needs and how much is actually available
+WaterBalance.png,WaterBalance,png,Water Balance,CWD.AET,in,Raw,Ann,Dot,Water Balance_CWD.AET_in_Raw_Ann_Dot,No,No,78,"LEAD TO FILL IN (e.g., Significant water limitations in the hot dry climate future)",Water balance is the relationship between how much water comes into an ecosystem and how much leaves it
+Panel-D.in-VPD.png,Panel-D.in-VPD,png,Water Balance,CWD.VPD,in.kPa,Var.Delta,Ann.Mon,TS-century.Bar,Water Balance_CWD.VPD_in.kPa_Var.Delta_Ann.Mon_TS-century.Bar,No,No,79,"LEAD TO FILL IN (e.g., Water stress (and fire and drought risk) increases in both climate futures)","Water balance is the relationship between how much water comes into an ecosystem and how much leaves it; vapor pressure deficit (VPD) is a measure of how ""thirsty"" the air is for moisture"
+WaterBalance_Monthly_Vertical.jpg,WaterBalance_Monthly_Vertical,jpg,Water Balance,Ppt.PET.AET,in,Avg,Mon,Area.Horz,Water Balance_Ppt.PET.AET_in_Avg_Mon_Area.Horz,No,No,80,"LEAD TO FILL IN (e.g., Water deficits in the summer in both climate futures, with more significance under hot dry)",Water balance is the relationship between how much water comes into an ecosystem and how much leaves it
+WaterBalance_Monthly_Horizontal.jpg,WaterBalance_Monthly_Horizontal,jpg,Water Balance,Ppt.PET.AET,in,Avg,Mon,Area.Vert,Water Balance_Ppt.PET.AET_in_Avg_Mon_Area.Vert,Yes,No,81,"LEAD TO FILL IN (e.g., Water deficits in the summer in both climate futures, with more significance under hot dry)",Water balance is the relationship between how much water comes into an ecosystem and how much leaves it
+Runoff.in-Timeseries.png,Runoff.in-Timeseries,png,Water Balance,Runoff,in,Variability,Ann,TS-century,Water Balance_Runoff_in_Variability_Ann_TS-century,Yes,No,82,"LEAD TO FILL IN (e.g., Water surplus / runoff decreases in the hot dry climate future)","Runoff is the water that flows over the land into streams, rivers, and lakes after the ground can’t absorb any more"
+sum_runoff.in-Monthly-line.png,sum_runoff.in-Monthly-line,png,Water Balance,Runoff,in,Delta,Mon,Line,Water Balance_Runoff_in_Delta_Mon_Line,No,No,83,"LEAD TO FILL IN (e.g., Spring runoff decreases in both climate futures)","Runoff is the water that flows over the land into streams, rivers, and lakes after the ground can’t absorb any more"
+Runoff.in-spaghetti.jpg,Runoff.in-spaghetti,jpg,Water Balance,Runoff,DOY,Raw,Day,Line,Water Balance_Runoff_DOY_Raw_Day_Line,Yes,No,84,"LEAD TO FILL IN (e.g., Water surplus / runoff decreases in the hot dry climate future)","Runoff is the water that flows over the land into streams, rivers, and lakes after the ground can’t absorb any more"
+Recurrenceinterval-Runoff.in-Panel.png,Recurrenceinterval-Runoff.in-Panel,png,Water Balance,Return.RO ,in,Quantile.Var,Day.Ann,Line.TS-century,Water Balance_Return.RO _in_Quantile.Var_Day.Ann_Line.TS-century,No,No,85,"LEAD TO FILL IN (e.g., Extreme precipitation increases in both climate futures but runoff decreases in hot dry)","Add any relevant context or delete text box, then resize figure"
+avg_SM.in-Monthly-line.png,avg_SM.in-Monthly-line,png,Water Balance,SM,in,Delta,Mon,Line,Water Balance_SM_in_Delta_Mon_Line,Yes,No,86,"LEAD TO FILL IN (e.g., Monthly average soil moisture decreases in the hot dry climate future)",Soil moisture is the amount of water stored in the ground that can be used
+SM.in-spaghetti.jpg,SM.in-spaghetti,jpg,Water Balance,SM,DOY,Raw,Day,Line,Water Balance_SM_DOY_Raw_Day_Line,No,No,87,"LEAD TO FILL IN (e.g., Daily soil moisture decreases in the hot dry climate future)",Soil moisture is the amount of water stored in the ground that can be used
+avg_SM.in-Density.png,avg_SM.in-Density,png,Water Balance,SM,Density,Avg,Ann,Area,Water Balance_SM_Density_Avg_Ann_Area,No,No,88,"LEAD TO FILL IN (e.g., Average soil moisture decreases in the hot dry climate future)",Soil moisture is the amount of water stored in the ground that can be used
+VPDDelta-Monthly-bar.png,VPDDelta-Monthly-bar,png,Water Balance,VPD,kPa,Delta,Mon,Bar,Water Balance_VPD_kPa_Delta_Mon_Bar,Yes,No,89,"LEAD TO FILL IN (e.g., Water stress (and fire and drought risk) increases across all months in both climate futures)","Vapor pressure deficit (VPD) is a measure of how ""thirsty"" the air is for moisture"
+VPDDelta-Seasonal-bar.png,VPDDelta-Seasonal-bar,png,Water Balance,VPD,kPa,Delta,Seas,Bar,Water Balance_VPD_kPa_Delta_Seas_Bar,No,No,90,"LEAD TO FILL IN (e.g., Water stress (and fire and drought risk) increases across all seasons in both climate futures)","Vapor pressure deficit (VPD) is a measure of how ""thirsty"" the air is for moisture"
+DroughtDuration-Bar.png,DroughtDuration-Bar,png,Drought,SPEI,Duration,Avg,Ann,Bar,Drought_SPEI_Duration_Avg_Ann_Bar,No,No,91,"LEAD TO FILL IN (e.g., Drought duration increases in the hot dry climate future)","Add any relevant context or delete text box, then resize figure"
+DroughtFrequency-Bar.png,DroughtFrequency-Bar,png,Drought,SPEI,Frequency,Avg,Ann,Bar,Drought_SPEI_Frequency_Avg_Ann_Bar,No,No,92,"LEAD TO FILL IN (e.g., Drought-free intervals increase in the warm wet climate future)","Add any relevant context or delete text box, then resize figure"
+DroughtIntensity-Bar.png,DroughtIntensity-Bar,png,Drought,SPEI,Intensity,Avg,Ann,Bar,Drought_SPEI_Intensity_Avg_Ann_Bar,No,No,93,"LEAD TO FILL IN (e.g., Drought intensity increases in the hot dry climate future)","Add any relevant context or delete text box, then resize figure"
+DroughtSeverity-Bar.png,DroughtSeverity-Bar,png,Drought,SPEI,Severity,Avg,Ann,Bar,Drought_SPEI_Severity_Avg_Ann_Bar,No,No,94,"LEAD TO FILL IN (e.g., Drought severity increases in the hot dry climate future)","Add any relevant context or delete text box, then resize figure"
+Drought-characteristics-panel.png,Drought-characteristics-panel,png,Drought,SPEI,DurFreqSev,Avg,Ann,Bar,Drought_SPEI_DurFreqSev_Avg_Ann_Bar,Yes,No,95,"LEAD TO FILL IN (e.g., Drought characteristics intensify in the hot dry climate future)","Add any relevant context or delete text box, then resize figure"
+DroughtCharacteristics-2-Panel.png,DroughtCharacteristics-2-Panel,png,Drought,SPEI,DurFreqSev,Var.Avg,Ann,TS.Bar.Horz,Drought_SPEI_DurFreqSev_Var.Avg_Ann_TS.Bar.Horz,No,No,96,"LEAD TO FILL IN (e.g., Drought characteristics intensify in the hot dry climate future)","Add any relevant context or delete text box, then resize figure"
+DroughtCharacteristics-1-Panel.png,DroughtCharacteristics-1-Panel,png,Drought,SPEI,DurFreqSev,Var.Avg,Ann,TS.Bar.Vert,Drought_SPEI_DurFreqSev_Var.Avg_Ann_TS.Bar.Vert,No,No,97,"LEAD TO FILL IN (e.g., Drought characteristics intensify in the hot dry climate future)","Add any relevant context or delete text box, then resize figure"
+SPEI-CF1-Annual-bar.png,SPEI-CF1-Annual-bar,png,Drought,SPEI,CF1-mid,Variability,Ann,Bar,Drought_SPEI_CF1-mid_Variability_Ann_Bar,No,No,98,"LEAD TO FILL IN (e.g., Wetter than normal conditions in the warm wet climate future)",Standardized Precipitation Evapotranspiration Index (SPEI) measures drought by comparing how much water comes in (rain) to how much is lost to evaporation
+SPEI-CF1-gridmet-Annual-bar.png,SPEI-CF1-gridmet-Annual-bar,png,Drought,SPEI,CF1-end,Variability,Ann,Bar,Drought_SPEI_CF1-end_Variability_Ann_Bar,No,No,99,"LEAD TO FILL IN (e.g., Wetter than normal conditions in the warm wet climate future)",Standardized Precipitation Evapotranspiration Index (SPEI) measures drought by comparing how much water comes in (rain) to how much is lost to evaporation
+SPEI-CF2-Annual-bar.png,SPEI-CF2-Annual-bar,png,Drought,SPEI,CF2-mid,Variability,Ann,Bar,Drought_SPEI_CF2-mid_Variability_Ann_Bar,No,No,100,"LEAD TO FILL IN (e.g., Drier than normal conditions (increased likelihood of drought) in the hot dry climate future)",Standardized Precipitation Evapotranspiration Index (SPEI) measures drought by comparing how much water comes in (rain) to how much is lost to evaporation
+SPEI-CF2-gridmet-Annual-bar.png,SPEI-CF2-gridmet-Annual-bar,png,Drought,SPEI,CF2-end,Variability,Ann,Bar,Drought_SPEI_CF2-end_Variability_Ann_Bar,No,No,101,"LEAD TO FILL IN (e.g., Drier than normal conditions (increased likelihood of drought) in the hot dry climate future)",Standardized Precipitation Evapotranspiration Index (SPEI) measures drought by comparing how much water comes in (rain) to how much is lost to evaporation
+SPEI-Panel.png,SPEI-Panel,png,Drought,SPEI,CFs-end,Variability,Ann,Bar,Drought_SPEI_CFs-end_Variability_Ann_Bar,Yes,Yes,102,"LEAD TO FILL IN (e.g., Increased likelihood of drought in the hot dry climate future)",Standardized Precipitation Evapotranspiration Index (SPEI) measures drought by comparing how much water comes in (rain) to how much is lost to evaporation
+SWEaccum.in-Timeseries.png,SWEaccum.in-Timeseries,png,Snow,SWE,in,Variability,Ann,TS-century,Snow_SWE_in_Variability_Ann_TS-century,Yes,Yes,103,"LEAD TO FILL IN (e.g., Average annual snow water equivalent (snowpack) decreases in both climate futures)",Snow water equivalent (SWE) is the amount of water stored in the snowpack if it were melted
+SWEaccum.in-spaghetti.jpg,SWEaccum.in-spaghetti,jpg,Snow,SWE,in,Raw,Day,Line,Snow_SWE_in_Raw_Day_Line,Yes,No,104,"LEAD TO FILL IN (e.g., Average annual snow water equivalent (snowpack) decreases in both climate futures)",Snow water equivalent (SWE) is the amount of water stored in the snowpack if it were melted
+max_pack.in-Annual-bar.png,max_pack.in-Annual-bar,png,Snow,SWE,in,Max,Ann,Bar,Snow_SWE_in_Max_Ann_Bar,No,No,105,"LEAD TO FILL IN (e.g., Average annual max snow water equivalent (snowpack) decreases in both climate futures)",Snow water equivalent (SWE) is the amount of water stored in the snowpack if it were melted
+max_SWEaccum.in-Annual-line.png,max_SWEaccum.in-Annual-line,png,Snow,SWE,in,Max,Ann,TS,Snow_SWE_in_Max_Ann_TS,No,No,106,"LEAD TO FILL IN (e.g., Average annual max snow water equivalent (snowpack) decreases in both climate futures)",Snow water equivalent (SWE) is the amount of water stored in the snowpack if it were melted
+sum_SWEaccum.in-Monthly-line.png,sum_SWEaccum.in-Monthly-line,png,Snow,SWE,in,Delta,Mon,Line,Snow_SWE_in_Delta_Mon_Line,No,No,107,"LEAD TO FILL IN (e.g., Snow water equivalent (snowpack) decreases in winter and spring in both climate futures)",Snow water equivalent (SWE) is the amount of water stored in the snowpack if it were melted
+SWEaccum.in-Density-max.png,SWEaccum.in-Density-max,png,Snow,SWE,Density,Max,Ann,Area,Snow_SWE_Density_Max_Ann_Area,No,No,108,"LEAD TO FILL IN (e.g., Maximum annual snow water equivalent (snowpack) decreases in both climate futures)",Snow water equivalent (SWE) is the amount of water stored in the snowpack if it were melted
+RHmeanDelta-Monthly-bar.png,RHmeanDelta-Monthly-bar,png,Relative Humidity,Avg,Pct,Delta,Mon,Bar,Relative Humidity_Avg_Pct_Delta_Mon_Bar,Yes,No,109,"LEAD TO FILL IN (e.g., Average monthly relative humidity increases in warm wet and decreases in hot dry climate future)",Relative humidity (RH) is the percentage of moisture in the air compared to how much it could hold at that temperature
+RHmeanDelta-Seasonal-bar.png,RHmeanDelta-Seasonal-bar,png,Relative Humidity,Avg,Pct,Delta,Seas,Bar,Relative Humidity_Avg_Pct_Delta_Seas_Bar,No,No,110,"LEAD TO FILL IN (e.g., Average seasonal relative humidity increases in warm wet and decreases in hot dry climate future)",Relative humidity (RH) is the percentage of moisture in the air compared to how much it could hold at that temperature
