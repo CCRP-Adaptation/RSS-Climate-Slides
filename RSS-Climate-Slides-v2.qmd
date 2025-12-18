@@ -1,0 +1,123 @@
+---
+title: "RSS Climate Slides"
+author: "Climate Change Response Program"
+date: today
+date-format: short
+format:
+  pptx:
+    slide-level: 2
+    reference-doc: "RSS-Climate-Slides-Template.pptx"
+params:
+  SiteID: "ISRO"  # UPDATE
+  LongName: "Isle Royale National Park"  # UPDATE
+  # region.name: "Midwest"  # UPDATE
+  CF_selected: "WarmWet_HotDry"  # Comment in/out depending on pair you choose
+  # CF_selected: "WarmDry_HotWet"  # Comment in/out depending on pair you choose
+  Base_Park_Dir: "E:/RCF_2024/RCF_opened"  # UPDATE
+  map_csv: "climate-metric-title.csv"
+---
+
+```{r setup, include=FALSE}
+
+##### DO THIS FIRST #####
+# Go to this website and download the zip file of your park unit of interest:
+# https://cf-results.s3.us-west-2.amazonaws.com/index.html
+# Extract the zip file
+# Save the unzipped folder to your R repository (or wherever you prefer it to be)
+#####
+
+# Load library packages
+# install.packages(c("dplyr","readr","stringr","tools")) # If you have not installed these packages yet, run this line of code
+library(dplyr)
+library(readr)
+library(stringr)
+library(tools)
+
+# Pull parameters from YAML
+SiteID        <- params$SiteID
+LongName      <- params$LongName
+region.name   <- params$region.name
+CF_selected   <- params$CF_selected
+Base_Park_Dir <- params$Base_Park_Dir
+MapCSV        <- params$map_csv
+
+# Park-specific directory
+Park_CF_Dir <- file.path(Base_Park_Dir, SiteID)
+
+# ---- Dynamic climate future directories ----
+if (CF_selected == "WarmWet_HotDry") {
+  CFs   <- c("Warm Wet", "Hot Dry")
+  CF_abbreviation <- "WW-HD"
+  CFDir <- file.path(Park_CF_Dir, "WarmWet_HotDry")
+  col <- c("#2B83BA", "#D7191C")
+  color.names <- c("blue", "red")
+} else {
+  CFs   <- c("Warm Dry", "Hot Wet")
+  CF_abbreviation <- "WD-HW"
+  CFDir <- file.path(Park_CF_Dir, "WarmDry_HotWet")
+  col <- c("#FDAE61", "#ABDDA4")
+  color.names <- c("orange", "green")
+}
+
+# ---- Figures directory (all images live here) ----
+FigDir <- file.path(CFDir, "figures")
+
+# ---- Read mapping CSV ----
+mapping <- read_csv(MapCSV, show_col_types = FALSE) %>%
+  mutate(
+    file_name  = str_trim(tolower(file_name)),
+    title      = str_trim(title),
+    subheading = str_trim(subheading)
+  )
+
+lookup <- mapping %>% select(file_name, title, subheading)
+
+# ---- Collect image files ----
+files <- list.files(
+  FigDir,
+  pattern = "\\.(png|jpg|jpeg|tif|tiff|gif|bmp|svg)$",
+  full.names = TRUE,
+  ignore.case = TRUE
+)
+files <- files[order(tolower(basename(files)))]
+
+# ---- Slide creation helper ----
+make_slide <- function(img_path) {
+
+  base <- basename(img_path)
+  key  <- tolower(base)
+
+  row <- lookup %>% filter(file_name == key)
+
+  # title from CSV or fallback
+  if (nrow(row) == 1 && !is.na(row$title) && row$title != "") {
+    slide_title <- row$title
+  } else {
+    slide_title <- toTitleCase(gsub("[-_]+"," ",
+       file_path_sans_ext(base)))
+  }
+
+  # subheading from CSV or empty
+  if (nrow(row) == 1 && !is.na(row$subheading) && row$subheading != "") {
+    subhead <- row$subheading
+  } else {
+    subhead <- ""
+  }
+
+  # fix path for Windows
+  p2 <- gsub("\\\\", "/", normalizePath(img_path, winslash = "/", mustWork = FALSE))
+
+  # emit slide
+  cat('## ', slide_title, ' {layout="Title and Content"}', "\n\n", sep = "")
+  if (subhead != "") {
+    cat(subhead, "\n\n")
+  }
+  cat("![](", p2, "){width=10in height=7.5in}\n\n", sep = "")
+}
+```
+
+```{r generate-slides, results='asis', echo=FALSE}
+for (img in files) {
+  make_slide(img)
+}
+```
