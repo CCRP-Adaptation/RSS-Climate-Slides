@@ -1,0 +1,234 @@
+---
+title: "RSS Climate Slides"
+author: "Climate Change Response Program"
+date: today
+date-format: short
+format:
+  pptx:
+    slide-level: 2
+    reference-doc: "RSS-Climate-Slides-Template.pptx"
+params:
+  ParkCode: "ISRO"                          # Park short code
+  LongName: "Isle Royale National Park"     # Full park name
+  CF_selected: "WarmWet_HotDry"             # Options: "WarmWet_HotDry" or "WarmDry_HotWet"
+  Base_Park_Dir: "E:/RCF_2024/RCF_opened"   # Parent directory containing park folders
+  map_csv: "climate-metric-title.csv"       # CSV mapping filenames → slide titles
+---
+
+```{r setup, include=FALSE}
+
+## IMPORTANT: Do not edit anything below unless you know what you are doing
+
+## ======================================================
+## Setup & Data Preparation
+## ======================================================
+
+# LIBRARIES
+
+# install.packages(c("dplyr","readr","stringr","tools")) # Run manually (console) if these packages are not yet installed, then comment back out - Quarto rendering does not play well with this command
+library(dplyr)
+library(readr)
+library(stringr)
+library(tools)
+
+# PARAMETERS
+
+ParkCode      <- params$ParkCode
+CF_selected   <- params$CF_selected
+Base_Park_Dir <- params$Base_Park_Dir
+MapCSV        <- params$map_csv
+
+# DIRECTORY STRUCTURE (hard drive)
+
+# Base_Park_Dir/
+# └─ ParkCode/
+#    ├─ WarmWet_HotDry/
+#    │  └─ figures/
+#    └─ WarmDry_HotWet/
+#       └─ figures/
+
+# Some downloads may include an extra nested ParkCode folder:
+# Base_Park_Dir/ParkCode/ParkCode/WarmWet_HotDry/figures
+
+# Failsafe for single vs double ParkCode nesting
+candidate_dirs <- c(
+  file.path(Base_Park_Dir, ParkCode),
+  file.path(Base_Park_Dir, ParkCode, ParkCode)
+)
+
+Park_Dir <- candidate_dirs[dir.exists(candidate_dirs)][1]
+
+if (is.na(Park_Dir) || !nzchar(Park_Dir)) {
+  stop(
+    "Park folder not found. Tried:\n- ",
+    paste(candidate_dirs, collapse = "\n- "),
+    "\n\nCheck Base_Park_Dir and ParkCode."
+  )
+}
+
+CFDir <- if (CF_selected == "WarmWet_HotDry") {
+  file.path(Park_Dir, "WarmWet_HotDry")
+} else {
+  file.path(Park_Dir, "WarmDry_HotWet")
+}
+
+FigDir <- file.path(CFDir, "figures")
+
+if (!dir.exists(FigDir)) {
+  stop(
+    "Figures folder not found:\n",
+    FigDir,
+    "\n\nTried park folder:\n",
+    Park_Dir,
+    "\n\nCheck that CF_selected is correct and that the figures folder exists."
+  )
+}
+
+# CLIMATE VARIABLE ORDER
+
+variable_order <- c(
+  "Temperature",
+  "Precipitation",
+  "Water Balance",
+  "Drought",
+  "Snow",
+  "Relative Humidity"
+)
+
+# READ TITLE / SUBHEADING / VARIABLE MAP
+
+# Quarto quirk - must redo order of operations for R packages
+library(dplyr)
+library(readr)
+library(stringr)
+
+title_map <- read_csv(MapCSV, show_col_types = FALSE) %>%
+  mutate(
+    file_name           = str_trim(tolower(file_name)),
+    slide_title         = str_trim(slide_title),
+    slide_subheading    = str_trim(slide_subheading),
+    quick_access_title  = str_trim(quick_access_title),
+    common_figure       = str_trim(tolower(common_figure)),
+    climate_variable    = str_trim(climate_variable),
+    slide_sort          = as.numeric(slide_sort)
+  )
+
+# COLLECT FIGURES AND JOIN METADATA
+
+fig_df <- tibble(
+  file_path = list.files(
+    FigDir,
+    pattern = "\\.(png|jpg|jpeg|tif|tiff|gif|bmp|svg)$",
+    full.names = TRUE,
+    ignore.case = TRUE
+  )
+) %>%
+  mutate(
+    file_name = tolower(basename(file_path))
+  ) %>%
+  left_join(title_map, by = "file_name") %>%
+  mutate(
+    climate_variable = if_else(
+      climate_variable %in% variable_order,
+      climate_variable,
+      NA_character_
+    ),
+    climate_sort = match(climate_variable, variable_order)
+  ) %>%
+  arrange(climate_sort, slide_sort, file_name)
+```
+
+```{r slide-builder, include=FALSE}
+
+## ======================================================
+## Slide Builder Function
+## ======================================================
+
+make_slide <- function(row) {
+
+  file_base <- basename(row$file_path)
+
+  slide_title <- if (!is.na(row$slide_title) && nzchar(row$slide_title)) {
+    row$slide_title
+  } else {
+    toTitleCase(gsub("[-_]+", " ", file_path_sans_ext(file_base)))
+  }
+
+  slide_subhead <- if (!is.na(row$slide_subheading) && nzchar(row$slide_subheading)) {
+    row$slide_subheading
+  } else {
+    ""
+  }
+
+  img_path_clean <- gsub(
+    "\\\\", "/",
+    normalizePath(row$file_path, winslash = "/", mustWork = FALSE)
+  )
+
+  cat("## ", slide_title, "\n\n", sep = "")
+  if (slide_subhead != "") cat(slide_subhead, "\n\n")
+  cat("![](", img_path_clean, "){width=10in height=7.5in}\n\n", sep = "")
+}
+```
+
+```{r generate-slides, results='asis', echo=FALSE}
+
+## ======================================================
+## Generate PowerPoint Slides
+## ======================================================
+
+# PARK TITLE SLIDE  # Can't put park name on title slide; Quarto limitation
+
+cat("# ", params$LongName, "\n\n", sep = "")
+
+# TABLE OF CONTENTS
+
+cat("## Table of Contents\n\n")
+
+for (v in variable_order) {
+  anchor <- tolower(gsub(" ", "-", v))
+  cat("- [", v, "](#", anchor, ")\n", sep = "")
+}
+
+cat("\n\n")
+
+# MOST COMMON FIGURES
+
+common_df <- fig_df %>%
+  filter(common_figure == "yes")
+
+if (nrow(common_df) > 0) {
+
+  # Section header
+  cat("# Most Common Figures\n\n")
+
+  for (i in seq_len(nrow(common_df))) {
+    make_slide(common_df[i, ])
+  }
+}
+
+# FULL FIGURE SET
+
+current_variable <- ""
+
+for (i in seq_len(nrow(fig_df))) {
+
+  row <- fig_df[i, ]
+
+  this_var <- as.character(row$climate_variable)
+
+  # Safely handle missing or uncategorized variables
+  if (is.na(this_var) || this_var == "") {
+    make_slide(row)
+    next
+  }
+
+  # Insert section header slide when variable changes
+  if (this_var != current_variable) {
+    cat("# ", this_var, "\n\n", sep = "")
+    current_variable <- this_var
+  }
+
+  make_slide(row)
+}
+```
