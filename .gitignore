@@ -9,3 +9,4 @@ archive/
 *.csv
 !climate-metric-title.csv
 *.docx
+*.zip
